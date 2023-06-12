@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission and Vision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: roboto, arial;
+      margin-top: 2%;
+      margin-bottom: 0;
+    }
+    .title{
+      text-align: center;
+    }
+    .title img{
+      margin: auto;
+      text-align: center;
+      width: 120px;
+      height: 120px;
+    }
+    .grid{
+      text-align: center;
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .grid p{
+      width: 80%;
+      margin: auto;
+      border-color: black;
+      border-style: solid;
+      border-width: 3px;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 2px;
+    }
+    a{
+      float: right;
+      position: relative;
+      right: 6%;
+    }
+    button{
+	  width: 200px;
+	  padding: 15px 0;
+	  text-align: center;
+	  margin: 20px 10px;
+	  border-radius: 25px;
+	  font-weight: bold;
+	  border: 2px solid #030b2e;
+	  background: transparent;
+	  color: #131212;
+  	cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+    }
+    span{
+	  background: #030b2e;
+	  height: 100%;
+	  width: 0;
+	  border-radius: 25px;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  z-index: -1;
+	  transition: 0.5s;
+    }
+    button:hover span{
+	  width: 100%;
+    }
+    button:hover{
+	  border: none;
+    color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="title">
+    <img src="images/pups.png" alt="Logo of PUP" />
+    <h1>Polytechnic University of the Philippines</h1>
+    <h2>Santa Maria, Bulacan Campus</h2>
+  </div>
+  <div class="grid">
+    <div>
+      <p>
+        <br><b>MISSION</b> <br><br><br>To provide high quality undergraduate programs and <br><br> globally-competitive human capital development and <br><br>
+        community services accessible particularly to the <br><br> students of the municipality. <br><br><br><br><br>
+      </p>
+    </div>
+    <div>
+      <p>
+        <br><b>VISION</b> <br><br><br> PUP Santa Maria envisions to offer the students of the <br><br>municipality quality, relevent, responsive, 
+        and excellent <br><br>tertiary education aimed to produce graduates that are <br><br>future leaders and expert in their chosen field 
+        of <br><br>endeavor and contributes to the full development of the <br><br>family, community, society, and the nation at large.
+      </p>
+      <a href="index.html"><button type="button"><span></span>BACK TO HOME PAGE</button></a>
+    </div>
+  </div>
+  
+</body>
+</html>

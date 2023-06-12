@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PUP History</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: roboto, arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .logo{
+      text-align: center;
+      margin-top: 12%;
+
+    }
+    .logo img{     
+      margin: auto;
+      width: 200px;
+      height: 200px;
+    }
+    button{
+	  width: 200px;
+	  padding: 15px 0;
+	  text-align: center;
+	  border-radius: 25px;
+	  font-weight: bold;
+	  border: 2px solid #030b2e;
+	  background: transparent;
+	  color: #131212;
+  	cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+    }
+    span{
+	  background: #030b2e;
+	  height: 100%;
+	  width: 0;
+	  border-radius: 25px;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  z-index: -1;
+	  transition: 0.5s;
+    }
+    button:hover span{
+	  width: 100%;
+    }
+    button:hover{
+	  border: none;
+    color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="logo">
+    <img src="images/pups.png" alt="Logo of PUP"/>
+    <p>To know more about the History of PUP please click the link below<br><a href="https://www.pup.edu.ph/ous/history"
+        target="_blank">PUP History</a></p>
+    <a href="index.html"><button type="button"><span></span>BACK TO HOME PAGE</button></a>
+  </div>
+
+</body>
+
+</html>

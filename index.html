@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      font-family: roboto, arial;
+      margin-top: 0;
+      margin-bottom: 0;
+      width: 90%;
+	    height: 100vh;
+      
+	    background-size: cover;
+	    background-position: center;
+    }
+    .content{
+      width: 100%;
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    text-align: center;
+	    color: #030b2e;
+    }
+    .content h1{
+      font-size: 70px;
+      margin-bottom: 0px;
+    }
+    .content p{
+      font-size: 22px;
+    }
+    .links{
+	    text-align: center;
+      margin: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+    button{
+	  width: 200px;
+	  padding: 15px 0;
+	  text-align: center;
+	  margin: 20px 10px;
+	  border-radius: 25px;
+	  font-weight: bold;
+	  border: 2px solid #030b2e;
+	  background: transparent;
+	  color: #030b2e;
+  	cursor: pointer;
+	  position: relative;
+	  overflow: hidden;
+    }
+    span{
+	  background: #030b2e;
+	  height: 100%;
+	  width: 0;
+	  border-radius: 25px;
+	  position: absolute;
+	  left: 0;
+	  bottom: 0;
+	  z-index: -1;
+	  transition: 0.5s;
+    }
+    button:hover span{
+	  width: 100%;
+    }
+    button:hover{
+	  border: none;
+    color: white;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Welcome!</h1>
+    <p>This is an HTML Page for My Gallery, About Me, PUP History, Mission and Vision.</p>
+    <div class="links">
+      <a href="MyGallery.html"><button type="button"><span></span>My Gallery</button></a>
+      <a href="AboutMe.html"><button type="button"><span></span>About Me</button></a>
+      <a href="PUPHistory.html"><button type="button"><span></span>PUP History</button></a>
+      <a href="MissionVision.html"><button type="button"><span></span>Mission and Vision</button></a>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
